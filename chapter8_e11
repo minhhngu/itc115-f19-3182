@@ -1,3 +1,12 @@
+// *********************************************************
+// EC_CH08_E11
+// Creates  instance method named transactionFee that will be placed
+// inside the BankAccount class to become a part of each BankAccount object's behavior.
+// 
+// By: Minh Ngu
+// 12/02/2019
+// *********************************************************
+
 public boolean transactionFee(double fee) {
     double deduction = 0.0;
     
