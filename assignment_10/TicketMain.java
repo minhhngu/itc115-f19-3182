@@ -3,6 +3,13 @@ package assignment_10;
 public class TicketMain {
 
 	public static void main(String[] args) {
+		// *********************************************************
+		// Assignment 10
+		//
+		// Design and code a class for walk up, advance, and student advance ticket pricing.
+		// By: Minh Ngu
+		// 12/02/2019
+		// *********************************************************
 		
 		Ticket[]tickets = new Ticket[5];
 		tickets[0] = new walkUpTicket(3);
