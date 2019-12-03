@@ -11,6 +11,6 @@ public class walkUpTicket extends Ticket {
 	}
 	
 	public String toString() {
-		return "Number: " + getNumber() + ", Price: " + getPrice(); 
+		return "Number: " + getNumber() + ", Price Per Ticket: " +  getPrice() + ", Total Cost: " + (getNumber() * getPrice()); 
 	}
 }
