@@ -19,6 +19,7 @@ public class TicketMain {
 		tickets[4] = new studentAdvanceTicket(3, 4);
 		
 		{
+		// Prints out number of tickets, cost of each ticket, and (# of tickets * price)
 		System.out.println(tickets[0]);
 		System.out.println(tickets[1]);
 		System.out.println(tickets[2]);
