@@ -1,0 +1,31 @@
+public class Janitor extends Employee {
+
+      //Write a class Janitor that expands on the law firm class
+      //Janitors work twice as many hours as employees
+      //Make 10k less than employees
+      //And get half as many vacation days
+      //Add new method that says "Workin' for the man."
+      //
+      //ITC 115
+      //
+      //Minh Ngu
+      //
+      //12/04/2019
+    
+      public int getHours() {
+          return 2 * super.getHours();
+        
+      }
+    
+	    public double getSalary() {
+	        return super.getSalary() - 10000;
+	    }
+	    
+	    public int getVacationDays() {
+	        return super.getVacationDays() / 2;
+	    }
+	    
+	    public void clean() {
+	        System.out.println("Workin' for the man.");
+	    }
+}
